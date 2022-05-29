@@ -2,7 +2,7 @@
 
 # Como executar o código?
 
-Para executar o exemplo, basta digitar no terminal:
+Para executar o código, basta digitar no terminal:
 ```bash
 $ docker-compose up --build -d
 ```
