@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+    nodejs:
+        build: 
+            dockerfile: ./docker/node.dockerfile
+            context: .
+        image: node_multi_stage_build
+        container_name: node_multi_stage_build
+        ports:
+            - "443:3000"
+        networks:
+            - network
+        environment:
+            - NODE_ENV=production
+
+networks:
+    network:
+        driver: bridge
