@@ -4,6 +4,9 @@
 
 Para executar o código, basta digitar no terminal:
 ```bash
+# Instalar as dependências
+$ yarn
+# Rodar o projeto usando docker
 $ docker-compose up --build -d
 ```
 
